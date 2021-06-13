@@ -1,0 +1,12 @@
+﻿  dllmain.cpp
+C:\Users\Mr.Hou\source\repos\CrossFire D3D WallHack\CrossFire D3D WallHack\dllmain.cpp(11,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  dx9hook.cpp
+C:\Users\Mr.Hou\source\repos\CrossFire D3D WallHack\CrossFire D3D WallHack\dx9hook.cpp(25,34): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HWND”
+  HideDll.cpp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  正在生成代码
+  2 of 33 functions ( 6.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  CrossFire D3D WallHack.vcxproj -> C:\Users\Mr.Hou\source\repos\CrossFire D3D WallHack\x64\Release\CrossFire D3D WallHack.dll
