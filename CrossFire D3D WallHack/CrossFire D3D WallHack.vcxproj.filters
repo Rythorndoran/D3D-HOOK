@@ -13,16 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\HideDll">
-      <UniqueIdentifier>{2a105a49-eb99-4e5d-92b4-debcec193325}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="HideDll.cpp">
-      <Filter>源文件\HideDll</Filter>
     </ClCompile>
     <ClCompile Include="dx9hook.cpp">
       <Filter>源文件</Filter>
@@ -31,9 +25,6 @@
   <ItemGroup>
     <ClInclude Include="headers.h">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="HideDll.h">
-      <Filter>源文件\HideDll</Filter>
     </ClInclude>
     <ClInclude Include="dx9hook.h">
       <Filter>源文件</Filter>

@@ -1,6 +1,5 @@
 ﻿// dllmain.cpp : 定义 DLL 应用程序的入口点。
 #include "headers.h"
-#include "HideDll.h"
 #include"dx9hook.h"
 BOOL CheckProcess(const char* procressName)
 {
@@ -63,8 +62,6 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     {
     case DLL_PROCESS_ATTACH:
 		DisableThreadLibraryCalls(hModule);
-		RemovePeHeader(hModule);
-		UnlinkModule((void*)hModule);
 		CloseHandle(CreateThread(nullptr, 0, reinterpret_cast<LPTHREAD_START_ROUTINE>(initThread), nullptr, 0, nullptr));
 		break;
     case DLL_THREAD_ATTACH:

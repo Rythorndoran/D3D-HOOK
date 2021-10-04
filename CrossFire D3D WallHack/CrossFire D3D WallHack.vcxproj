@@ -153,12 +153,10 @@
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="dx9hook.cpp" />
-    <ClCompile Include="HideDll.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dx9hook.h" />
     <ClInclude Include="headers.h" />
-    <ClInclude Include="HideDll.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
